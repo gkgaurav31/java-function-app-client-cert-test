@@ -58,7 +58,7 @@ public class Function {
 		}
 		
 
-		return request.createResponseBuilder(HttpStatus.OK).body("Headers: " + Arrays.asList(headers) + "\nEncoded String: "+ certB64 + "\nThumbprint:  " + thumbprint + "!").build();
+		return request.createResponseBuilder(HttpStatus.OK).body("Headers: " + Arrays.asList(headers) + "\n\nEncoded String: "+ certB64 + "\n\nThumbprint:  " + thumbprint + "!").build();
 		
 	}
 }
