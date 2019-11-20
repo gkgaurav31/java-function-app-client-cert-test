@@ -1,1 +1,1 @@
-# java-function-app-client-cert-test" 
+# java-function-app-client-cert-test
